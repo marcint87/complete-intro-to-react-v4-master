@@ -50,12 +50,14 @@ class App extends React.Component {
               breed = pet.breeds.breed;
             }
 
+            const x = 
+
             return (
               <Pet
                 key={pet.id}
                 animal={pet.animal}
                 name={pet.name}
-                breed={breed}
+                breed={pet.breed}
                 media={pet.media}
                 location={`${pet.contact.city}, ${pet.contact.state}`}
               />
